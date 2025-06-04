@@ -29,7 +29,7 @@
 
 ## 🧠 软件架构 | System Architecture
 
-![LighTrack整体架构图](./imgs/LighTrack2.png)
+![LighTrack整体架构图](./imgs/LighTrack_up.png)
 
 LighTrack 采用 **前后端解耦式设计**，将模拟与渲染功能分离，保证高效运行与良好拓展性。
 
@@ -66,12 +66,12 @@ LighTrack 采用 **前后端解耦式设计**，将模拟与渲染功能分离�
 - 需要长期监测与多次叠加
 - 示意：Kepler 中类地凌星信号仅 4.2σ
 
-![类地行星模拟图](./imgs/类地行星1.png)
+![类地行星模拟图](./imgs/类地行星1_up.png)
 
 #### 🎥 类地行星视频演示
 [📽️ 点击此处下载或观看视频](类地行星.mp4)
 
-![类地行星模拟图](./imgs/类地行星2.png)
+![类地行星模拟图](./imgs/类地行星2_up.png)
 
 
 ### 🔥 热木星（Hot Jupiter）
@@ -80,13 +80,13 @@ LighTrack 采用 **前后端解耦式设计**，将模拟与渲染功能分离�
 - 最早发现的凌星类系外行星，信号显著
 - 示意：HD 209458b 是首批确认的热木星之一
 
-![热木星模拟图](./imgs/热木星1.png)
+![热木星模拟图](./imgs/热木星1_up.png)
 
 
 #### 🎥 热木星视频演示
 [📽️ 点击此处下载或观看视频](热木星.mp4)
 
-![热木星模拟图](./imgs/热木星2.png)
+![热木星模拟图](./imgs/热木星2_up.png)
 
 
 ### 🛸 红矮星宜居行星（TRAPPIST-1 系统）
@@ -95,13 +95,13 @@ LighTrack 采用 **前后端解耦式设计**，将模拟与渲染功能分离�
 - 示意：TRAPPIST-1e 周期 6.1 天，深度达 5500 ppm！
 - 红矮星半径小～0.1 M_sun，亮度低，宜居带距离也很近典型0.01–0.1 AU。这意味行星周期短 ~几天至几十天，凌日频繁、凌日信号相对较深。
 
-![红矮星模拟图](./imgs/红矮星1.png)
+![红矮星模拟图](./imgs/红矮星1_up.png)
 
   
 #### 🎥 红矮星宜居行星视频演示
 [📽️ 点击此处下载或观看视频](红矮星.mp4)
 
-![红矮星模拟图](./imgs/红矮星2.png)
+![红矮星模拟图](./imgs/红矮星2_up.png)
 
 
 ### ⚪ 白矮星凌星（WD Systems）
@@ -110,19 +110,19 @@ LighTrack 采用 **前后端解耦式设计**，将模拟与渲染功能分离�
 - 示意：WD 1856+534 b 每 34 小时一次凌星，下降 56%！
 - 白矮星是太阳类恒星演化末期形成的小而致密星体，其宜居带非常靠近，行星公转周期只有数十小时到几天，地球大小的行星凌星可造成极深的光变。
 
-![白矮星模拟图](./imgs/白矮星1.png)
+![白矮星模拟图](./imgs/白矮星1_up.png)
 
 
 #### 🎥 白矮星宜居行星视频演示
 [📽️ 点击此处下载或观看视频](白矮星周边.mp4)
 
-![白矮星模拟图](./imgs/白矮星2.png)
+![白矮星模拟图](./imgs/白矮星2_up.png)
 
 ### 🌑 掩食双星模拟
 - 模拟两颗恒星互掩、产生周期性亮度变化
 - 可重现经典日全食或食双星的光变
 
-![双食星模拟图](./imgs/掩食.png)
+![双食星模拟图](./imgs/日全食.png)
 
 
 #### 🎥 日全食视频演示
@@ -139,7 +139,7 @@ LighTrack 采用 **前后端解耦式设计**，将模拟与渲染功能分离�
 
 通过设定不同的噪声水平（1000–20000 ppm），LighTrack 可模拟望远镜探测能力对凌星信号的影响。
 
-![观测能力图](./imgs/观测能力1.png)
+![观测能力图](./imgs/望远镜评估1.png)
 
 示例：
 
@@ -151,7 +151,7 @@ LighTrack 采用 **前后端解耦式设计**，将模拟与渲染功能分离�
 
 > UCASST 70cm 实验望远镜探测极限约为 **8000 ppm**
 
-![观测能力图](./imgs/观测能力2.png)
+![观测能力图](./imgs/望远镜评估2.png)
 
 
 ---
@@ -213,12 +213,27 @@ pip install batman-package numpy matplotlib
 ---
 
 ## 📚 参考资料 | References
+1. Christiansen J. L., Jenkins J. M., Caldwell D. A., et al. Measuring Transit Signal Recovery in the Kepler Pipeline II: Detection Efficiency as Calculated in One Year of Data[J]. The Astrophysical Journal Supplement Series, 2012, 200(2): 12.
 
-- Christiansen et al. (2012), *Kepler pipeline performance*
-- Vanderburg et al. (2020), *WD 1856+534 b discovery*
-- Ducrot et al. (2021), *TRAPPIST-1系统分析*
-- TEPCat Exoplanet Database
-- NASA Eyes, PHOEBE, ELLC, BATMAN
+2. Harrington J., Luszcz S., Seager S., et al. The Phase-dependent Infrared Brightness of the Extrasolar Planet υ Andromedae b[J]. Nature, 2006, 447: 691–693.
+
+3. Ducrot E., Gillon M., Delrez L., et al. Secondary Eclipse Depths of the TRAPPIST-1 Planets with Spitzer[J]. Astronomy & Astrophysics, 2021, 646: A152.
+
+4. Alonso R., Brown T. M., Torres G., et al. Transiting “Hot Jupiter” Planet OGLE-TR-56b: No Timing Variations and Refined Parameters[J]. The Astrophysical Journal Letters, 2004, 613(2): L153–L156.
+
+5. Vanderburg A., Rappaport S., Xu S., et al. A Giant Planet Candidate Transiting a White Dwarf[J]. Nature, 2020, 585: 363–367.
+
+6. Whyte L., McCaughrean M. J., Maxted P. F. L., et al. Potential for Life to Exist and be Detected on Earth-like Planets Orbiting White Dwarfs[J]. The Astrophysical Journal Letters, 2024, 947(1): L10.
+
+7. TEPCat: The Transiting Extrasolar Planet Catalogue [DB/OL]. Available: http://www.astro.keele.ac.uk/jkt/tepcat/
+
+8. NASA Eyes on Exoplanets [EB/OL]. https://eyes.nasa.gov/apps/exo/#/
+
+9. Kreidberg L. BATMAN: BAsic Transit Model cAlculatioN in Python [J]. Publications of the Astronomical Society of the Pacific, 2015, 127(957): 1161–1165.
+
+10. Prša A., Zwitter T. PHOEBE: Model of Eclipsing Binary Stars for the Whole Community [J]. The Astrophysical Journal, 2005, 628(1): 426–438.
+
+11. Maxted P. F. L. ELLC: A Fast, Flexible Light Curve Model for Eclipsing Binary Stars and Transiting Planets[J]. Astronomy & Astrophysics, 2016, 591: A111.
 
 ---
 
