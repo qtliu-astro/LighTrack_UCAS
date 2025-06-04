@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/fc2c0287-4b6f-4406-9a87-679d4760ac3d)# 🌌 LighTrack: An Interactive Exoplanet Transit Simulator
+# 🌌 LighTrack: An Interactive Exoplanet Transit Simulator
 
 > “See the unseen. Model the unimaginable.”  
 > —— 以交互方式洞察遥远行星的凌日轨迹与光变奥秘。
