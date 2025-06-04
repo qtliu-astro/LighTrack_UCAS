@@ -29,6 +29,8 @@
 
 ## 🧠 软件架构 | System Architecture
 
+![LighTrack整体架构图](./imgs/LighTrack2.png)
+
 LighTrack 采用 **前后端解耦式设计**，将模拟与渲染功能分离，保证高效运行与良好拓展性。
 
 ### 🎮 Unity 前端
