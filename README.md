@@ -29,7 +29,7 @@
 
 ## 🧠 软件架构 | System Architecture
 
-![LighTrack整体架构图](./imgs/LighTrack_up.png)
+![LighTrack整体架构图](./imgs/LighTrack_up_up.png)
 
 LighTrack 采用 **前后端解耦式设计**，将模拟与渲染功能分离，保证高效运行与良好拓展性。
 
@@ -139,7 +139,7 @@ LighTrack 采用 **前后端解耦式设计**，将模拟与渲染功能分离�
 
 通过设定不同的噪声水平（1000–20000 ppm），LighTrack 可模拟望远镜探测能力对凌星信号的影响。
 
-![观测能力图](./imgs/望远镜评估1.png)
+![观测能力图](./imgs/能力评估1_up_up.png)
 
 示例：
 
